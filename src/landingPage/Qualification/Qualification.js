@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Qualification() {
   return (
@@ -14,10 +15,10 @@ function Qualification() {
               <div className="card-body">
                 <h5 className="card-title">Nawayug Academy</h5>
                 <p className="card-text">UP to SEE.</p>
-                <a href="#" className=" btncsQuali">
+                <Link to="#" className=" btncsQuali">
                   <span className="qualiSpan" aria-hidden="true"></span>
                   <span className="qualiLabel">More About It.</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -30,10 +31,10 @@ function Qualification() {
               <div className="card-body">
                 <h5 className="card-title">Greenland Secondary School</h5>
                 <p className="card-text">+2</p>
-                <a href="#" className=" btncsQuali">
+                <Link to="#" className=" btncsQuali">
                   <span className="qualiSpan" aria-hidden="true"></span>
                   <span className="qualiLabel">More About It</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -44,10 +45,10 @@ function Qualification() {
               <div className="card-body">
                 <h5 className="card-title">Purwanchal Engineering Campus-ERC</h5>
                 <p className="card-text">Bachelor In Computer Engineering.</p>
-                <a href="#" className="btncsQuali">
+                <Link to="#" className="btncsQuali">
                   <span className="qualiSpan" aria-hidden="true"></span>
                   <span className="qualiLabel">Learn More</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

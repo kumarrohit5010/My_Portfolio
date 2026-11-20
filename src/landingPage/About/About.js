@@ -1,5 +1,6 @@
 import React from "react";
 import ResumeBtn from "../ResumeBtn";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -20,8 +21,8 @@ function About() {
             and seamless user experiences. I am passionate about learning new
             technologies and creating impactful digital solutions.
           </p>
-          <a href="/contact"><button className="btn btn-primary btncsAbout">Contact Me.</button></a> 
-          <a href="/about" className="btnCv"><ResumeBtn /></a>
+          <Link to="/contact"><button className="btn btn-primary btncsAbout">Contact Me.</button></Link> 
+          <Link to="/about" className="btnCv"><ResumeBtn /></Link>
         </div>
       </div>
     </div>
