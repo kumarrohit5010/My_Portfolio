@@ -15,7 +15,7 @@ function Qualification() {
               <div className="card-body">
                 <h5 className="card-title">Nawayug Academy</h5>
                 <p className="card-text">UP to SEE.</p>
-                <Link to="#" className=" btncsQuali">
+                <Link to="https://nawayug.edu.np/"   target="_blank" rel="noopener noreferrer" className=" btncsQuali">
                   <span className="qualiSpan" aria-hidden="true"></span>
                   <span className="qualiLabel">More About It.</span>
                 </Link>
@@ -31,7 +31,7 @@ function Qualification() {
               <div className="card-body">
                 <h5 className="card-title">Greenland Secondary School</h5>
                 <p className="card-text">+2</p>
-                <Link to="#" className=" btncsQuali">
+                <Link to="https://greenlandcollege.edu.np/" className=" btncsQuali">
                   <span className="qualiSpan" aria-hidden="true"></span>
                   <span className="qualiLabel">More About It</span>
                 </Link>
@@ -45,7 +45,7 @@ function Qualification() {
               <div className="card-body">
                 <h5 className="card-title">Purwanchal Engineering Campus-ERC</h5>
                 <p className="card-text">Bachelor In Computer Engineering.</p>
-                <Link to="#" className="btncsQuali">
+                <Link to="https://www.ioepc.edu.np/" className="btncsQuali">
                   <span className="qualiSpan" aria-hidden="true"></span>
                   <span className="qualiLabel">Learn More</span>
                 </Link>

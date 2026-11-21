@@ -14,11 +14,11 @@ function Home() {
                 <p>I am a Web Developer with extensive experience for over 2 years.<br/>Expertise is to create and design Website,Frontend design and many more...</p>
 
                 <div className="icons mb-3">
-                  <Link to="#"><i className="fa-brands fa-facebook"></i></Link>
-                  <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
-                  <Link to="#"><i className="fa-brands fa-linkedin"></i></Link>
-                  <Link to="#"><i className="fa-solid fa-envelope"></i></Link>
-                  <Link to="#"><i className="fa-brands fa-square-github"></i></Link>
+                  <Link to="https://www.facebook.com/share/18NCN7nJ1x/?mibextid=wwXIfr" target="_blank"><i className="fa-brands fa-facebook"></i></Link>
+                  <Link to="https://www.instagram.com/kumarrohit9814?hvrq=aDJsbGlqNml5bDNn&utm_source=qr" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
+                  <Link to="https://www.linkedin.com/in/rohit-kumar-yadav-79a9682a2/?skipRedirect=true&contentTrackingId=SoEanUY7TL%2BaVzq0q5PZDw%3D%3D&viewName=premium-nav-upsell-text&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text%3ANav%3AIn-Product"><i className="fa-brands fa-linkedin" target="_blank"></i></Link>
+                  <Link to="mailto:kumarikshant@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></Link>
+                  <Link to="https://mail.google.com/mail/?view=cm&fs=1&to=kumarikshant@gmail.com" target="_blank"><i className="fa-brands fa-square-github"></i></Link>
                 </div>
                 <Link to="/about"><button className="btn btn-primary btncs">More about me</button></Link>
             </div>
